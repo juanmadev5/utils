@@ -12,7 +12,7 @@ class Queue {
     if (_queue.isNotEmpty) {
       _queue.removeAt(0);
     } else {
-      print("La cola está vacía");
+      print("Queue is empty");
     }
   }
 
